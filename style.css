@@ -22,4 +22,64 @@
 
 body {
     font-family: "Krona One", sans-serif;
+    background-color: var(--Laranja);
 }
+
+/* Cabeçalho */
+header img {
+    width: 150px;
+    /* largura da imagem */
+    height: 150px;
+    /* altura da imagem */
+    margin-top: 30px;
+    /* margem superior da imagem */
+    border-radius: 50%;
+    /* para deixar as bordas redondas */
+}
+
+/* principal */
+main {
+    text-align: center;
+}
+
+main h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    /* para diminuir o tamanho da fonte */
+    font-weight: 750;
+    /* para deixar em negrito */
+    color: var(--Preto);
+}
+
+main p {
+    max-width: 210px;
+    margin-bottom: 15px;
+    color: var(--Preto);
+    font-weight: 750;
+    margin-left: 25px;
+}
+
+/* links */
+.conteiner > a {
+    text-decoration: none;
+    background-color: beige;
+    color: var(--Preto);
+    width: 300px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 15px;
+    font-size: 1.15rem; 
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+}
+footer img {
+    margin: 0px 5px;
+}
+
+
